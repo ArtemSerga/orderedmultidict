@@ -8,10 +8,10 @@
 # License: Build Amazing Things (Unlicense)
 from __future__ import absolute_import
 
-from itertools import chain
+from itertools import chain, izip_longest as zip_longest
 
 import six
-from six.moves import map, zip_longest
+from six.moves import map
 
 from .itemlist import itemlist
 
